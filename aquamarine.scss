@@ -4,8 +4,7 @@
 * Copyright 2014-2018 Pingendo (https://pingendo.com)
 */
  
-@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400|Abril+Fatface:200,300,400|Bebas+Neue:200,300,400');
   
 // Options
 // 
@@ -23,11 +22,11 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #4f70ce,
-  secondary: #12bbad,
+  primary: #00307C,
+  secondary: #A5CBF2,
   light: #f3f3f3,
   dark: #151515,
-  info: #ccc,
+  info: #f3f3f3,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
@@ -36,10 +35,10 @@ $theme-colors: (
 $body-bg: white;
 $body-color: #333;
 $body-color-inverse: invert($body-color) !default;
-$link-color: #12bbad;
+$link-color: #A5CBF2;
 
 // Fonts
-$font-family-base: Roboto;
+$font-family-base: sans-serif;
 $display-font-family: Roboto;
 $lead-font-size:   1.3rem;
 $font-size-base:  1.1rem;
@@ -48,8 +47,8 @@ $font-weight-normal: 200;
 $font-weight-bold: 700;
 $font-weight-base: $font-weight-normal;
 $line-height-base:  1.5;
-$headings-font-family: Roboto;
-$headings-font-weight: $font-weight-normal;
+$headings-font-family: "Abril Fatface", Roboto;
+$headings-font-weight: $font-weight-light;
 $headings-line-height: 1.2;
 
 
@@ -74,6 +73,14 @@ $breadcrumb-bg: transparent !default;
 // Carousel
 $carousel-caption-width:            					100% !default;
 $carousel-indicator-height:                   6px !default;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+
+
+
 
 @import 'bootstrap-4.1.3';
 
