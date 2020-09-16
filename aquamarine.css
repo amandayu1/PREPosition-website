@@ -6595,23 +6595,7 @@ body > * {
 .carousel .carousel-indicators {
   bottom: 0px; }
 
-/* Animate state between .navbar and .navbar-ontop */
-.navbar {
-  transition: background-color .5s ease-out; }
-
-.navbar-ontop {
-  background-color: transparent !important; }
-
 /* Animate on entrance */
-.animate-in-down {
-  transition: all 1.3s ease-out;
-  position: relative;
-  opacity: 1;
-  top: 0px; }
-  .animate-in-down.out-of-viewport {
-    top: 40px;
-    opacity: 0; }
-
 .animate-in-left {
   transition: all 1.0s ease-out;
   position: relative;
