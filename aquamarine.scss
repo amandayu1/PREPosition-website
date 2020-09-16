@@ -4,7 +4,7 @@
 * Copyright 2014-2018 Pingendo (https://pingendo.com)
 */
  
-@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400|Abril+Fatface:200,300,400|Bebas+Neue:200,300,400|Merriweather:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400|Abril+Fatface:200,300,400|Bebas+Neue:200,300,400');
   
 // Options
 // 
@@ -200,10 +200,12 @@ body > * {
 .navbar {
   transition: background-color .5s ease-out;
 }
+
 .navbar-ontop {
   background-color: transparent !important;
 }
-/* Animate on entrance */
+
+/* Animate on entrance 
 .animate-in-down {
   transition: all 1.3s ease-out;
 	position:relative;
@@ -214,6 +216,7 @@ body > * {
     opacity:0;
   }
 }
+*/
 
 .animate-in-left {
   transition: all 1.0s ease-out;

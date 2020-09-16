@@ -3,7 +3,7 @@
 * Based on: Bootstrap v4.1.3 (https://getbootstrap.com)
 * Copyright 2014-2018 Pingendo (https://pingendo.com)
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400|Abril+Fatface:200,300,400|Bebas+Neue:200,300,400|Merriweather:400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400|Abril+Fatface:200,300,400|Bebas+Neue:200,300,400");
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6602,13 +6602,12 @@ body > * {
 .navbar-ontop {
   background-color: transparent !important; }
 
-/* Animate on entrance */
-.animate-in-down {
+Animate on entrance .animate-in-down {
   transition: all 1.3s ease-out;
   position: relative;
   opacity: 1;
   top: 0px; }
-  .animate-in-down.out-of-viewport {
+  Animate on entrance .animate-in-down.out-of-viewport {
     top: 40px;
     opacity: 0; }
 
