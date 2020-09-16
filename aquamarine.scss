@@ -197,15 +197,16 @@ body > * {
 }
 
 /* Animate state between .navbar and .navbar-ontop */
+
 .navbar {
   transition: background-color .5s ease-out;
 }
-
+/* 
 .navbar-ontop {
   background-color: transparent !important;
 }
 
-/* Animate on entrance 
+Animate on entrance 
 .animate-in-down {
   transition: all 1.3s ease-out;
 	position:relative;
