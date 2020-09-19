@@ -89,7 +89,6 @@ body > * {
   background-size: cover;
 }
 
-
 // Color yiq
 @each $name, $value in $theme-colors {
   .bg-#{$name} {
@@ -102,6 +101,17 @@ body > * {
     }
   }
 }
+
+ @media (max-width:768px)
+ {
+  .display-2{
+    @include font-size($display3-size);
+    font-size: $display3-size;
+    font-weight: $display3-weight;
+    line-height: $display-line-height;
+  }
+ }
+
 .cover {
  min-height: 100%; 
 }
