@@ -344,6 +344,13 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
+  @media (max-width:768px)
+  {
+   .display-2{
+    font-size: 4.5rem;
+   }
+  }
+
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
